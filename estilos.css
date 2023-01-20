@@ -1,0 +1,117 @@
+.capa {
+  width: 100%;
+  height: 100%;
+}
+
+.capa img {
+  width: 100%;
+  height: 50%;
+  align-self: center;
+}
+
+.btn { 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.botao {
+  padding: 10px 10px;  
+  width: 260px;
+  color: #fff;
+  background: #1C2E4A;
+  border: 0.5px solid rgb(255, 255, 255);
+  border-radius: 7px;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+  font-family: "Roboto", monospace;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.botao:hover {
+  background: #1c488f;
+  transition: 1s;
+}
+
+.btn2{
+  background-image: url(/src/imagens/capa-sem-logo-redemnsionada-2.png);
+  background-image: no-repeat;
+  background-size: cover;
+  height: 150px;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.conteudo {
+  background-color: white;
+  padding: 20px;
+  font-family: "Roboto", monospace;
+  color: rgb(76, 70, 70);
+  /*border: 10px solid red; visualização */
+}
+
+#cta {
+  padding-top: 10px;
+  font-family: "Montserrat", monospace;
+  text-align: center;
+  font-size: x-large;
+}
+
+img.tracejado {
+  width: 300px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.titulo-conteudo {
+  color:#1C2E4A;
+  text-align: center;
+}
+
+.quem-sou {
+  font-family: "Montserrat", monospace;
+  font-weight: bolder;
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 5px;
+  padding-bottom: 10px;
+}
+
+.quem-sou-paragrafo {
+  font-size: smaller;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  width: 200px;
+  align-self: center;
+  padding-left: 395px;
+}
+
+#rodape {
+  margin: 0px;
+  background-color: black;
+  text-align: center;
+  color: #fff;
+  font-family: "Roboto", monospace;
+}
+
+#foto-de-perfil {
+  background-color: 0;
+  padding: 2px;
+  border-width: 3px;
+  border-color: #1C2E4A;
+  border-radius: 100%;
+  border-style: solid;
+  width: auto;
+  height: auto;
+  max-width: 150px;
+  max-height: 150px;
+  }
+
