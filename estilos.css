@@ -1,6 +1,6 @@
 .capa {
   width: 100%;
-  height: 900px;
+  height: 100%;
 }
 
 .capa img {
@@ -14,6 +14,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding-top: 10px;
 }
 
 .botao {
@@ -39,7 +40,7 @@
 }
 
 .btn2{
-  background-image: url(/imagens/capa-sem-logo-redemnsionada-2.png);
+  background-image: url(/imagens/capa-red-jpg.jpg);
   background-image: no-repeat;
   background-size: cover;
   height: 100px;
@@ -75,6 +76,10 @@ img.tracejado {
   text-align: center;
 }
 
+span {
+  color: #1c488f;
+}
+
 .quem-sou {
   font-family: "Montserrat", monospace;
   font-weight: bolder;
@@ -87,10 +92,38 @@ img.tracejado {
 .quem-sou-paragrafo {
   font-size: smaller;
   justify-content: center;
-  align-self: center;
   text-align: center;
-  align-self: center;
+  text-align: justify;
+  text-justify: inter-word;
+  margin: auto;
+  width: 50%;
+  padding-bottom: 25px;
 }
+
+/*#foto-time-holding {
+  padding-top: 25px;
+  padding-bottom: 15px;
+  width: auto;
+  height: auto;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.div-time-holding {
+  background-color: #010822;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: #1C2E4A;
+  border-radius: 150px;
+  border-style: solid;
+}
+
+img .div-time-holding {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}*/
 
 #rodape {
   margin: 0px;
