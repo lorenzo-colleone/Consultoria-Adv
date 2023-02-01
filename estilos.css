@@ -40,7 +40,7 @@
 }
 
 .btn2{
-  background-image: url(/imagens/capa-red-jpg.jpg);
+  background-image:url(./imagens/capa-red-jpg.jpg);
   background-image: no-repeat;
   background-size: cover;
   height: 100px;
@@ -62,6 +62,10 @@
   font-family: "Montserrat", monospace;
   text-align: center;
   font-size: x-large;
+}
+
+#frase-especialista {
+  text-align: center;
 }
 
 img.tracejado {
