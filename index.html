@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Holding Familiar</title>
 
-    <!-- Google tag (gtag.js) -->
+    <!-- Google tag (gtag.js) ANTIGA 
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-QT019DTDDH"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
@@ -21,7 +21,35 @@
     gtag('js', new Date());
 
     gtag('config', 'G-QT019DTDDH');
-    </script><!-- End Google tag (gtag.js) -->
+    </script> End Google tag (gtag.js) -->
+
+    <!-- Google tag (gtag.js) PAGEVIEW -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-436498435"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-436498435');
+    </script>
+
+    <!-- Event snippet for entrou em contato pelo WhatsApp - LP Holding Familiar conversion page
+        EVENT BUTTON CLICK
+    In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+        function gtag_report_conversion(url) {
+        var callback = function () {
+            if (typeof(url) != 'undefined') {
+            window.location = url;
+            }
+        };
+        gtag('event', 'conversion', {
+            'send_to': 'AW-436498435/wcS3COK-45AYEIPgkdAB',
+            'event_callback': callback
+        });
+        return false;
+        }
+        </script>
 
     <!-- Meta Pixel Code -->
     <script>
@@ -45,11 +73,6 @@
     <div class="capa">
         <img src="./imagens/capa-jpg.jpg">
     </div>
-    <div class="btn">
-        <a class="botao" href="https://api.whatsapp.com/send?phone=5519994553174&text=Ol%C3%A1!%20Me%20interessei%20pelo%20sistema%20de%20Holding%20Familiar%20e%20gostaria%20de%20ser%20atendido%20" target="_blank">
-            QUERO SER ATENDIDO
-        </a>
-    </div>
 
     <div class="conteudo">
         <p id="cta">
@@ -60,6 +83,12 @@
         <p id="frase-especialista">
             <em>“O melhor caminho para proteger o seu patrimônio e garantir o futuro dos seus herdeiros", afirmam os especialistas.</em>
         </p>
+
+        <div class="btn">
+            <a onclick="return gtag_report_conversion('https://valdemircolleone.com/holding-familiar/');" class="botao" href="https://api.whatsapp.com/send?phone=5519994553174&text=Ol%C3%A1!%20Me%20interessei%20pelo%20sistema%20de%20Holding%20Familiar%20e%20gostaria%20de%20ser%20atendido%20" target="_blank">
+                CLIQUE PARA FALAR COM UM ADVOGADO
+            </a>
+        </div>
 
         <img src="./imagens/tracejado.png" class="tracejado">
         <h3 class="titulo-conteudo" id="holding-familiar">HOLDING FAMILIAR: O que é e como usar para proteger o seu patrimônio.</h3>
@@ -82,8 +111,8 @@
         </p><br><br>
 
         <div class="btn">
-            <a class="botao" href="https://api.whatsapp.com/send?phone=5519994553174&text=Ol%C3%A1!%20Me%20interessei%20pelo%20sistema%20de%20Holding%20Familiar%20e%20gostaria%20de%20ser%20atendido%20" target="_blank">
-                QUERO SER ATENDIDO
+            <a onclick="return gtag_report_conversion('https://valdemircolleone.com/holding-familiar/');" class="botao" href="https://api.whatsapp.com/send?phone=5519994553174&text=Ol%C3%A1!%20Me%20interessei%20pelo%20sistema%20de%20Holding%20Familiar%20e%20gostaria%20de%20ser%20atendido%20" target="_blank">
+                CLIQUE PARA FALAR COM UM ADVOGADO
             </a>
         </div>
         
@@ -96,6 +125,91 @@
         
             Montagem do sistema, com a entrega de todos os instrumentos necessários para sua constituição, tais como, contrato social, acordo de sócios e as devidas alterações do contrato social. A Holding Familiar e todo planejamento sucessório é entregue pronto em uma média de 2 meses.            
         </p>
+        <img src="./imagens/tracejado.png" class="tracejado">
+
+        <div class="quem-sou">
+            <h3 class="titulo-conteudo" id="quem-sou-headline">QUEM SOU EU?</h3>
+            <h4 id="quem-sou-titulo">Dr. Valdemir Vieira Colleone</h4><br>
+            <img src="./imagens/pfp-valdemir.png" id="foto-de-perfil"> 
+            
+            <div class="quem-sou-paragrafo">
+                <p>
+                    <br>
+                    
+                    Advogado especializado em planejamento sucessório, com atuação na estruturação e constituição do sistema de Holding Patrimonial Familiar, ajudando as famílias na organização patrimonial e sucessão, evitando que tenham que passar pelo doloroso, moroso e caro processo de inventário.<br>
+                    
+                    Membro do Time Holding Brasil, o maior e melhor grupo de estudos sobre Holding Familiar e planejamento sucessório.<br>
+                    
+                    Pós-graduado em em Direito e Negócios Imobiliários pela Faculdade IBMEC-São Paulo e Instituto Damásio de Direito. 
+                </p>
+            </div>
+        </div><br><br>
+
+        <div class="btn">
+            <a onclick="return gtag_report_conversion('https://valdemircolleone.com/holding-familiar/');" class="botao" href="https://api.whatsapp.com/send?phone=5519994553174&text=Ol%C3%A1!%20Me%20interessei%20pelo%20sistema%20de%20Holding%20Familiar%20e%20gostaria%20de%20ser%20atendido%20" target="_blank">
+                CLIQUE PARA FALAR COM UM ADVOGADO
+            </a>
+        </div>
+
+        <div id="testimonial">
+            <h1 class="titulo-conteudo"> VEJA ALGUNS DEPOIMENTOS</h1>
+
+            <div class="cartoes">
+
+                <div class="cartao">
+                    <img class="usuario" src="./imagens/usuario1.jpg">
+                    <h3><em>Francisco Ribeiro</em></h3>
+                    <div class="estrelas">
+                        <img class="estrela" src="./imagens/star.svg">
+                        <img class="estrela" src="./imagens/star.svg">
+                        <img class="estrela" src="./imagens/star.svg">
+                        <img class="estrela" src="./imagens/star.svg">
+                        <img class="estrela" src="./imagens/star.svg">
+                    </div>
+
+                    <p>
+                        Não tenho palavras para agradecer o trabalho excepcional que o Dr. Valdemir realizou para minha família. Com sua ajuda, conseguimos proteger nosso patrimônio e garantir a sucessão de nossos bens de forma justa e equilibrada entre nossos filhos. Recomendo seus serviços a todos que desejam planejar o futuro de sua família com tranquilidade e segurança.
+                    </p>
+
+                </div>
+
+                <div class="cartao">
+                    <img class="usuario" src="./imagens/usuario2.jpg">
+                    <h3><em>Sr. Vicente Pires</em></h3>
+                    <div class="estrelas">
+                        <img class="estrela" src="./imagens/star.svg">
+                        <img class="estrela" src="./imagens/star.svg">
+                        <img class="estrela" src="./imagens/star.svg">
+                        <img class="estrela" src="./imagens/star.svg">
+                        <img class="estrela" src="./imagens/star.svg">
+                    </div>
+
+                    <p>
+                        Encontrar o Dr. Valdemir me ajudou a proteger o patrimônio da minha empresa e de minha família. Isso sempre foi um desafio para mim. Mas, felizmente, encontrei o profissional mais experiente e dedicado, que me ajudou a entender todas as questões legais e a encontrar a melhor solução para a minha situação. Estou muito grato por ter encontrado o Dr. Valdemir tão competente e comprometido.
+                    </p>
+
+                </div>
+
+                <div class="cartao">
+                    <img class="usuario" src="./imagens/usuario3.jpg">
+                    <h3><em>Emanuel Campos</em></h3>
+                    <div class="estrelas">
+                        <img class="estrela" src="./imagens/star.svg">
+                        <img class="estrela" src="./imagens/star.svg">
+                        <img class="estrela" src="./imagens/star.svg">
+                        <img class="estrela" src="./imagens/star.svg">
+                        <img class="estrela" src="./imagens/star.svg">
+                    </div>
+
+                    <p>
+                        Foi um verdadeiro alívio encontrar o Dr. Valdemir, ele me ajudou muito com os conflitos de sucessão em minha família. Com sua orientação e experiência, conseguimos encontrar uma solução justa e equilibrada para todos os envolvidos, garantindo a harmonia e a continuidade do nosso negócio familiar. Recomendo seus serviços a todos que precisam de ajuda para proteger seus interesses e evitar conflitos familiares.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
 
         <img src="./imagens/tracejado.png" class="tracejado">
         <h3 class="titulo-conteudo" id="duvidas-comuns">PERGUNTAS FREQUENTES</h3>
@@ -131,42 +245,11 @@
             <span>Sim! É através dela que conseguiremos definir qual o melhor modelo a ser adotado dentro das suas circunstâncias</span>, o que vai nos permitir fazer um trabalho de excelência.
         </p>     
     </div>
-
-    <div class="btn">
-        <a class="botao" href="https://api.whatsapp.com/send?phone=5519994553174&text=Ol%C3%A1!%20Me%20interessei%20pelo%20sistema%20de%20Holding%20Familiar%20e%20gostaria%20de%20ser%20atendido%20" target="_blank">
-            QUERO SER ATENDIDO
-        </a>
-    </div><br><br>
-
-    <div class="quem-sou">
-        <h4 id="quem-sou-titulo">Dr. Valdemir Vieira Colleone</h4>
-        <img src="./imagens/pfp-valdemir.png" id="foto-de-perfil"> 
-        
-        <div class="quem-sou-paragrafo">
-            <p>
-                <br>
-                
-                Advogado especializado em planejamento sucessório, com atuação na estruturação e constituição do sistema de Holding Patrimonial Familiar, ajudando as famílias na organização patrimonial e sucessão, evitando que tenham que passar pelo doloroso, moroso e caro processo de inventário.<br>
-                
-                Membro do Time Holding Brasil, o maior e melhor grupo de estudos sobre Holding Familiar e planejamento sucessório.<br>
-                
-                Pós-graduado em em Direito e Negócios Imobiliários pela Faculdade IBMEC-São Paulo e Instituto Damásio de Direito. 
-            </p>
-        </div>
-
-        <!--
-        Seção nova ainda em pensamento
-        <div class="div-time-holding">
-            <img src="./imagens/time-holding-logo-transparente.png" id="foto-time-holding">
-        </div>
-        -->
-        
-    </div>
     
     <div class="btn2">
         <div class="btn">
-            <a class="botao" href="https://api.whatsapp.com/send?phone=5519994553174&text=Ol%C3%A1!%20Me%20interessei%20pelo%20sistema%20de%20Holding%20Familiar%20e%20gostaria%20de%20ser%20atendido%20" target="_blank">
-                QUERO SER ATENDIDO
+            <a onclick="return gtag_report_conversion('https://valdemircolleone.com/holding-familiar/');" class="botao" href="https://api.whatsapp.com/send?phone=5519994553174&text=Ol%C3%A1!%20Me%20interessei%20pelo%20sistema%20de%20Holding%20Familiar%20e%20gostaria%20de%20ser%20atendido%20" target="_blank">
+                CLIQUE PARA FALAR COM UM ADVOGADO
             </a>
         </div> 
     </div>
